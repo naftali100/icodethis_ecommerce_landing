@@ -1,9 +1,18 @@
 {
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2,
     "vetur.validation.script": false,
-    "eslint.format.enable": false,
+    "eslint.codeActionsOnSave.mode": "all",
+    "eslint.enable": true,
+    "eslint.format.enable": true,
+    "eslint.lintTask.enable": true,
+    "eslint.run": "onSave",
     "eslint.validate": [
         "javascript",
         "javascriptreact",
         "vue"
+    ],
+    "css.customData": [
+        ".vscode/tailwind.json",
     ]
 }

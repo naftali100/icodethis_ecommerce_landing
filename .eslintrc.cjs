@@ -10,6 +10,7 @@ module.exports = {
     // TODO: 'plugin:@typescript-eslint/recommended',
     '@vue/eslint-config-prettier/skip-formatting',
     'plugin:vuejs-accessibility/recommended',
+    'plugin:tailwindcss/recommended',
     'prettier'
   ],
   parser: 'vue-eslint-parser',
@@ -20,6 +21,7 @@ module.exports = {
   },
   // plugins: ['vue', 'vuejs-accessibility', '@typescript-eslint'],
   rules: {
-    'no-undef': 'off'
+    'no-undef': 'off',
+    '@typescript-eslint/no-unused-vars': 'off'
   }
 }
